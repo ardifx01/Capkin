@@ -21,9 +21,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 ## About Me
 
-- [Instagram](https://www.instagram.com/tegarraihann.a/).
-- [Facebook](https://www.facebook.com/Tegarraihann?locale=id_ID).
-- [LinkedIn](https://www.linkedin.com/in/tegar-raihan-8b309531b/).
+- [Instagram](https://www.instagram.com/amddhani_?igsh=N2h1eDc2dW04azd1).
 
 
 
