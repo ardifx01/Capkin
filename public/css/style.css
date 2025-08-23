@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Brother 1816';
+    src: url("/fonts/Brother1816-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url("/fonts/Brother1816-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url("/fonts/Brother1816-Book.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url("/fonts/Brother1816-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url("/fonts/Brother1816-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url("/fonts/Brother1816-ExtraBold.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Brother 1816';
+}
+
+/* ********************************** */
+/* STYLE LOGIN PAGE  */
+/* ********************************** */
+
+.input {
+    margin-top: 15px;
+    width: 100%;
+    outline: none;
+    border-radius: 8px;
+    height: 45px;
+    border: 1.5px solid #8a8a8a;
+    background: transparent;
+    padding-left: 10px;
+}
+
+.input:focus {
+    border: 1.5px solid #084EC4;
+}
+
+.input-field .input:focus~.label,
+.input-field .input:valid~.label {
+    top: 5px;
+    left: 5px;
+    font-size: 12px;
+    color: #084EC4;
+    background-color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.submit-btn:hover {
+    box-shadow: 0px 0px 0px 2px #ffffff, 0px 0px 0px 4px #084EC4;
+    background-color: #2d79f3
+}
+
